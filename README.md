@@ -62,6 +62,7 @@ git clone https://github.com/RogerRoth/bolao-da-copa.git
 # entre na pasta do projeto back end
 cd server
 yarn
+npx prisma migrate dev
 yarn dev
 ```
 
